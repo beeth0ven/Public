@@ -13,6 +13,8 @@
 		454CF4D11C1E556800CE5935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 454CF4D01C1E556800CE5935 /* Assets.xcassets */; };
 		454CF4D41C1E556800CE5935 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454CF4D21C1E556800CE5935 /* LaunchScreen.storyboard */; };
 		454CF4DD1C1E558500CE5935 /* ExpandableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454CF4DC1C1E558500CE5935 /* ExpandableTableViewCell.swift */; };
+		454CF4E01C1E567000CE5935 /* SectionsAsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454CF4DF1C1E567000CE5935 /* SectionsAsDataSource.swift */; };
+		454CF4E21C1E56AD00CE5935 /* InternetError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454CF4E11C1E56AD00CE5935 /* InternetError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		454CF4D31C1E556800CE5935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		454CF4D51C1E556800CE5935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		454CF4DC1C1E558500CE5935 /* ExpandableTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableTableViewCell.swift; sourceTree = "<group>"; };
+		454CF4DF1C1E567000CE5935 /* SectionsAsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionsAsDataSource.swift; sourceTree = "<group>"; };
+		454CF4E11C1E56AD00CE5935 /* InternetError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,10 @@
 		454CF4C81C1E556800CE5935 /* Public */ = {
 			isa = PBXGroup;
 			children = (
+				454CF4CD1C1E556800CE5935 /* Main.storyboard */,
 				454CF4C91C1E556800CE5935 /* AppDelegate.swift */,
 				454CF4CB1C1E556800CE5935 /* ViewController.swift */,
-				454CF4CD1C1E556800CE5935 /* Main.storyboard */,
-				454CF4DC1C1E558500CE5935 /* ExpandableTableViewCell.swift */,
+				454CF4DE1C1E562B00CE5935 /* Public */,
 				454CF4DB1C1E557300CE5935 /* Support Files */,
 			);
 			path = Public;
@@ -73,6 +77,16 @@
 				454CF4D51C1E556800CE5935 /* Info.plist */,
 			);
 			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		454CF4DE1C1E562B00CE5935 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				454CF4DC1C1E558500CE5935 /* ExpandableTableViewCell.swift */,
+				454CF4DF1C1E567000CE5935 /* SectionsAsDataSource.swift */,
+				454CF4E11C1E56AD00CE5935 /* InternetError.swift */,
+			);
+			name = Public;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				454CF4E01C1E567000CE5935 /* SectionsAsDataSource.swift in Sources */,
 				454CF4CC1C1E556800CE5935 /* ViewController.swift in Sources */,
+				454CF4E21C1E56AD00CE5935 /* InternetError.swift in Sources */,
 				454CF4CA1C1E556800CE5935 /* AppDelegate.swift in Sources */,
 				454CF4DD1C1E558500CE5935 /* ExpandableTableViewCell.swift in Sources */,
 			);
